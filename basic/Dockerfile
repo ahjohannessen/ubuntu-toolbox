@@ -5,5 +5,6 @@ RUN apt-get update && apt-get install -y \
 		curl \
 		wget \
 		whois \
-		genisoimage	\
+		genisoimage \
+		cloud-image-utils \
 	&& rm -rf /var/lib/apt/lists/*

@@ -8,3 +8,5 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
 		genisoimage \
 		cloud-image-utils \
 	&& rm -rf /var/lib/apt/lists/*
+
+LABEL org.opencontainers.image.source https://github.com/ahjohannessen/ubuntu-toolbox
